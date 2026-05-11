@@ -1,9 +1,9 @@
-# ERA-LearnInPublic
+# LearnInPublic
 This repo is created with a primary goal of tracking my progress as Git is 
 famous for its timestamped changes. This will help in accountability.
 
 ## Goal
-Breaking into Equity Research as an **Equity Research Analyst (ERA)** — 
+Breaking into an Analyst role — 
 documenting every step publicly.
 
 ## What's tracked here
@@ -31,9 +31,7 @@ Built a full end-to-end SQL project on a normalized e-commerce database (8 table
 - UNION & UNION ALL
 - Normalization — 1NF, 2NF, 3NF
 
-**Project:** [E-Commerce Order & Customer Analytics](./ecommerce-sql-project)
+**Project:** 
 
 ## Find me
-- 📝 Substack — [idkjustpratham](https://substack.com/@idkjustpratham) — weekly write-ups
 - 💼 LinkedIn — [idkjustpratham](https://www.linkedin.com/in/idkjustpratham/) — professional updates
-- 🐦 X — [idkjustPratham](https://x.com/idkjustPratham) — daily notes
