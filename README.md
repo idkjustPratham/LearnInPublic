@@ -31,7 +31,7 @@ Built a full end-to-end SQL project on a normalized e-commerce database (8 table
 - UNION & UNION ALL
 - Normalization — 1NF, 2NF, 3NF
 
-**Project:** 
+**Project:** https://github.com/idkjustPratham/LearnInPublic/tree/c73c62f2f1b2be9b2341e2613796ac5eb3e06833/SQL/MegaProject
 
 ## Find me
 - 💼 LinkedIn — [idkjustpratham](https://www.linkedin.com/in/idkjustpratham/) — professional updates
