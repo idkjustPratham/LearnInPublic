@@ -1,6 +1,8 @@
 # SQL
 ## Course
 [![SQL for Data Analytics - Learn SQL in 4 Hours](https://i.ytimg.com/vi/7mz73uXD9DA/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDmdIwsPjydNwWgCiqhoZRbjuzf5A)](https://youtu.be/7mz73uXD9DA)
+
+
 **SQL for Data Analytics** by Luke Barousse — followed every chapter end to end.
 ---
 ## What's in this folder
