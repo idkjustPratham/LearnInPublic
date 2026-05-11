@@ -10,7 +10,7 @@ documenting every step publicly.
 | What | Link | Updated |
 |------|------|---------|
 | Progress Sheet | [Google Drive](https://drive.google.com/drive/folders/1WzFmAEl_sVK9ZbDG6IWVQDkTcdiR-Wss?usp=sharing) | Milestone |
-| SQL Project | [ecommerce-sql-project](./ecommerce-sql-project) | Completed |
+| SQL | [SQL Crash course](https://github.com/idkjustPratham/LearnInPublic/tree/67145c4ab4f0534d79636ffcc1cbf78eee1d73ce/SQL) | Completed |
 
 ## Skills
 ### SQL — Completed
@@ -30,7 +30,7 @@ Built a full end-to-end SQL project on a normalized e-commerce database (8 table
 - UNION & UNION ALL
 - Normalization — 1NF, 2NF, 3NF
 
-**Project:** https://github.com/idkjustPratham/LearnInPublic/tree/c73c62f2f1b2be9b2341e2613796ac5eb3e06833/SQL/MegaProject
+**Project:** https://github.com/idkjustPratham/LearnInPublic/tree/67145c4ab4f0534d79636ffcc1cbf78eee1d73ce/SQL
 
 ## Find me
 - 💼 LinkedIn — [idkjustpratham](https://www.linkedin.com/in/idkjustpratham/) — professional updates
