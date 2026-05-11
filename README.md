@@ -9,7 +9,7 @@ documenting every step publicly.
 ## What's tracked here
 | What | Link | Updated |
 |------|------|---------|
-| Daily Progress Sheet | [Google Drive](https://drive.google.com/drive/folders/1WzFmAEl_sVK9ZbDG6IWVQDkTcdiR-Wss?usp=sharing) | Daily |
+| Progress Sheet | [Google Drive](https://drive.google.com/drive/folders/1WzFmAEl_sVK9ZbDG6IWVQDkTcdiR-Wss?usp=sharing) | Milestone |
 | Research Reports | This repo | Per report |
 | SQL Project | [ecommerce-sql-project](./ecommerce-sql-project) | Completed |
 
