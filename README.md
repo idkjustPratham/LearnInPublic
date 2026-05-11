@@ -10,7 +10,6 @@ documenting every step publicly.
 | What | Link | Updated |
 |------|------|---------|
 | Progress Sheet | [Google Drive](https://drive.google.com/drive/folders/1WzFmAEl_sVK9ZbDG6IWVQDkTcdiR-Wss?usp=sharing) | Milestone |
-| Research Reports | This repo | Per report |
 | SQL Project | [ecommerce-sql-project](./ecommerce-sql-project) | Completed |
 
 ## Skills
