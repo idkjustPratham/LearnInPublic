@@ -1,12 +1,8 @@
-# Excel
-
 [![Excel for Data Analytics - Full Course for Beginners](https://i.ytimg.com/vi/pCJ15nGFgVg/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD10RA7t1xHduvEten7wkjP8el8NA)](https://www.youtube.com/watch?v=pCJ15nGFgVg&t=32816s)
 
-> Completed **SQL for Data Analytics** by Luke Barousse — every chapter, 26 practice problems, and a full self-designed mega project.
+# Excel
 
----
-
-> Completed an **end-to-end Excel Data Analytics Capstone** — 3 business domains, 9 raw datasets, 35+ tasks — plus two standalone practice workbooks (E-Commerce Sales Dashboard, HR Payroll & Employee Analysis).
+> Completed an **end-to-end Excel Data Analytics Capstone** — 3 business domains, 9 raw datasets, 35+ tasks — plus two standalone practice workbooks (HR Payroll & Employee Analysis, E-Commerce Sales Dashboard).
 
 ---
 
@@ -27,31 +23,28 @@ A simulated mid-sized Indian retail chain (5 stores) with a call centre and an H
 Full task-by-task breakdown (A1–A10, B1–B9, C1–C8) is in [`PROJECT_STATEMENT.md`](./PROJECT_STATEMENT.md).
 
 ### 📂 Folder Structure
-
-```
 Excell/
 └── RetailPulse/
-    ├── PROJECT_STATEMENT.md              # Full task brief for all 3 domains
-    │
-    ├── ── RAW DATA ──
-    ├── Agents.csv
-    ├── CallLog.csv
-    ├── Inventory.csv
-    ├── JobListings.csv
-    ├── Products.csv
-    ├── Sales.csv
-    ├── SkillsList.csv
-    ├── StaffingScenarios.csv
-    ├── Stores.csv
-    │
-    ├── ── DOMAIN WORKBOOKS ──
-    ├── A — Call Centre Operations.xlsx
-    ├── B — Retail Sales & Inventory.xlsx
-    ├── B.1.xlsx                          # Power Query / Power Pivot data model build-out
-    ├── C — Job Market Intelligence.xlsx
-    │
-    └── Retail Pulse.xlsx                 # Consolidated workbook — all domains + dashboard
-```
+├── PROJECT_STATEMENT.md              # Full task brief for all 3 domains
+│
+├── ── RAW DATA ──
+├── Agents.csv
+├── CallLog.csv
+├── Inventory.csv
+├── JobListings.csv
+├── Products.csv
+├── Sales.csv
+├── SkillsList.csv
+├── StaffingScenarios.csv
+├── Stores.csv
+│
+├── ── DOMAIN WORKBOOKS ──
+├── A — Call Centre Operations.xlsx
+├── B — Retail Sales & Inventory.xlsx
+├── B.1.xlsx                          # Power Query / Power Pivot data model build-out
+├── C — Job Market Intelligence.xlsx
+│
+└── Retail Pulse.xlsx                 # Consolidated workbook — all domains + dashboard
 
 ### 🔑 Key Skills Demonstrated
 - **Advanced formulas:** `XLOOKUP`, `TEXTSPLIT`, `FORECAST.ETS`, `SORT`, array formulas with `SUMPRODUCT` + `ISNUMBER` + `SEARCH`
@@ -64,10 +57,43 @@ Excell/
 
 ## 📊 Additional Workbooks
 
-| File | Description |
-|---|---|
-| `E-Commerce sales dashboard.xlsx` | *[Add a 1–2 line description of scope/techniques]* |
-| `HR Payroll & Employee Analysis.xlsx` | *[Add a 1–2 line description of scope/techniques]* |
+### `HR Payroll & Employee Analysis.xlsx`
+
+**Scenario:** Junior data analyst at a 50-person company. HR hands over a raw employee export and needs a clean, automated payroll summary report.
+
+**Dataset:**
+- `Employees` — EmpID, Name, Department, Role, JoinDate, Salary, HoursWorked (weekly avg), Rating (1–5), Region — 50 rows across 5 departments, 3 regions
+- `TaxBrackets` — MinSalary, MaxSalary, TaxRate%
+
+**Tasks:**
+- `XLOOKUP` to pull each employee's tax rate from `TaxBrackets` and calculate net salary
+- `Tenure` column via date functions (years since JoinDate)
+- Performance flag ("High Performer" / "Needs Review" / "Standard") using `IFS` on Rating + Tenure
+- Department Summary table via `COUNTIFS` / `AVERAGEIFS` / `SUMIFS` — headcount, avg salary, avg rating per dept
+- In-department salary ranking with `RANK` and absolute references
+- Conditional formatting: red for Rating < 2, green for Rating ≥ 4, salary heatmap
+- Pivot Table: avg salary by Department × Region, with a Region slicer
+- Bar chart of avg salary by department + sparklines for salary distribution per dept
+- What-If Data Table: total payroll cost at 0%, 5%, 10%, 15% salary raises
+
+### `E-Commerce sales dashboard.xlsx`
+
+**Scenario:** Monthly raw order export from an online store's order management system. Clean it, analyze it, build a live-ish manager dashboard.
+
+**Dataset:**
+- `RawOrders` — OrderID (`"ORD-2024-00123"`), CustomerName (mixed case, extra spaces), ProductCode, Category, OrderDate (some as text `"15-Jan-2024"`), Qty, UnitPrice, DiscountCode, ShipDate — 200 rows, 8 product categories, deliberate data quality issues
+- `Discounts` — DiscountCode, DiscountPct
+
+**Tasks:**
+- `TRIM`, `PROPER`, `TEXTSPLIT`, `MID`, `FIND` to clean CustomerName and extract the numeric order number from OrderID
+- `DATEVALUE` to convert text-format dates to real dates; extract Month, Weekday, Hour-of-day
+- `XLOOKUP` for discount %, then `FinalRevenue = Qty × UnitPrice × (1 − Discount%)`
+- Array formula for total revenue per category without a pivot table
+- `TEXTJOIN` to build a "Customer Order Summary" string ("CustomerName ordered X items across Y categories")
+- `COUNTIF` by hour to find peak order hours, charted as a line chart
+- Pivot Table + Pivot Chart: Revenue by Category by Month, with a timeline slicer
+- Power Query to load RawOrders, clean the date column, remove duplicates, merge with `Discounts`
+- `FORECAST.ETS` to project next 3 months of revenue from historical monthly totals
 
 ---
 
@@ -85,3 +111,5 @@ Excell/
 ## 🛠️ Tools Used
 
 `Microsoft Excel` · `Power Query` · `Power Pivot` · `DAX` · `Analysis ToolPak` · `Claude AI — dataset & problem-statement generation`
+
+---
