@@ -113,3 +113,6 @@ Excell/
 `Microsoft Excel` · `Power Query` · `Power Pivot` · `DAX` · `Analysis ToolPak` · `Claude AI — dataset & problem-statement generation`
 
 ---
+## 📁 Full Course Files
+
+All files for this course: [Google Drive folder](https://drive.google.com/drive/folders/1wMg0yI0LjB6GVWQj41hK4LfLUn0eh0yB?usp=sharing)
