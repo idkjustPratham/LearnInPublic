@@ -1,5 +1,11 @@
 # Excel
 
+[![Excel for Data Analytics - Full Course for Beginners](https://i.ytimg.com/vi/pCJ15nGFgVg/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD10RA7t1xHduvEten7wkjP8el8NA)](https://www.youtube.com/watch?v=pCJ15nGFgVg&t=32816s)
+
+> Completed **SQL for Data Analytics** by Luke Barousse — every chapter, 26 practice problems, and a full self-designed mega project.
+
+---
+
 > Completed an **end-to-end Excel Data Analytics Capstone** — 3 business domains, 9 raw datasets, 35+ tasks — plus two standalone practice workbooks (E-Commerce Sales Dashboard, HR Payroll & Employee Analysis).
 
 ---
