@@ -1,0 +1,16 @@
+AgentID,AgentName,Shift,HourlyRate,EmploymentType,City
+AGT001,Priya Sharma,Morning,18,Full-Time,Mumbai
+AGT002,Rahul Mehta,Morning,17,Full-Time,Delhi
+AGT003,Sneha Patil,Morning,16,Part-Time,Pune
+AGT004,Amit Joshi,Afternoon,19,Full-Time,Mumbai
+AGT005,Divya Nair,Afternoon,18,Full-Time,Bangalore
+AGT006,Rohan Desai,Afternoon,17,Part-Time,Hyderabad
+AGT007,Pooja Singh,Afternoon,16,Full-Time,Chennai
+AGT008,Kiran Kumar,Night,20,Full-Time,Mumbai
+AGT009,Neha Gupta,Night,18,Full-Time,Delhi
+AGT010,Vijay Rao,Night,17,Full-Time,Bangalore
+AGT011,Anita Bose,Night,16,Part-Time,Kolkata
+AGT012,Sanjay Tiwari,Morning,15,Full-Time,Pune
+AGT013,Lakshmi Iyer,Afternoon,17,Full-Time,Chennai
+AGT014,Deepak Shah,Night,18,Full-Time,Ahmedabad
+AGT015,Meera Pillai,Morning,16,Part-Time,Mumbai

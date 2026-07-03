@@ -1,0 +1,21 @@
+SkillName,Category
+SQL,Database
+Python,Programming
+Power BI,Visualization
+Excel,Productivity
+Tableau,Visualization
+R,Programming
+Machine Learning,AI/ML
+Spark,Big Data
+Azure,Cloud
+AWS,Cloud
+DAX,BI Language
+ETL,Data Engineering
+Statistics,Analytics
+NumPy,Programming
+Pandas,Programming
+TensorFlow,AI/ML
+Looker,Visualization
+Snowflake,Database
+dbt,Data Engineering
+Git,DevOps

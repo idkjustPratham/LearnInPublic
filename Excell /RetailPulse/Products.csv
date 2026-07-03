@@ -1,0 +1,41 @@
+ProductID,ProductName,Category,CostPrice,ReorderLevel,Supplier
+P001,Laptop,Electronics,47019.59,13,SupplierA
+P002,Tablet,Electronics,17947.09,19,SupplierC
+P003,Headphones,Electronics,3529.91,20,SupplierB
+P004,Smartwatch,Electronics,12160.08,22,SupplierC
+P005,Keyboard,Electronics,1736.53,19,SupplierC
+P006,Monitor,Electronics,23617.71,24,SupplierB
+P007,Mouse,Electronics,822.4,9,SupplierD
+P008,Webcam,Electronics,2685.58,13,SupplierC
+P009,T-Shirt,Clothing,346.79,29,SupplierD
+P010,Jeans,Clothing,1256.08,5,SupplierC
+P011,Jacket,Clothing,2954.57,12,SupplierC
+P012,Saree,Clothing,1879.56,26,SupplierD
+P013,Kurta,Clothing,891.08,26,SupplierD
+P014,Formal Shirt,Clothing,1158.46,9,SupplierC
+P015,Sneakers,Clothing,3086.46,25,SupplierC
+P016,Cap,Clothing,414.94,21,SupplierA
+P017,Rice 5kg,Grocery,254.45,9,SupplierB
+P018,Cooking Oil 1L,Grocery,193.45,11,SupplierA
+P019,Dal 1kg,Grocery,129.62,8,SupplierA
+P020,Spices Pack,Grocery,223.12,17,SupplierD
+P021,Biscuits,Grocery,80.41,27,SupplierC
+P022,Tea 500g,Grocery,191.06,12,SupplierA
+P023,Sugar 1kg,Grocery,49.64,11,SupplierD
+P024,Salt 1kg,Grocery,32.57,7,SupplierD
+P025,Pillow,Home,689.13,6,SupplierC
+P026,Curtains,Home,1213.92,18,SupplierC
+P027,Mop,Home,412.95,6,SupplierC
+P028,Storage Box,Home,875.05,28,SupplierA
+P029,Table Lamp,Home,1546.99,7,SupplierB
+P030,Bedsheet,Home,1070.28,8,SupplierA
+P031,Towel Set,Home,574.77,22,SupplierD
+P032,Wall Clock,Home,712.8,21,SupplierB
+P033,Yoga Mat,Sports,1115.41,10,SupplierD
+P034,Cricket Bat,Sports,3672.28,29,SupplierC
+P035,Dumbbells 5kg,Sports,1862.82,27,SupplierD
+P036,Skipping Rope,Sports,376.8,10,SupplierB
+P037,Water Bottle,Sports,424.2,21,SupplierC
+P038,Badminton Set,Sports,1650.41,22,SupplierD
+P039,Cycling Gloves,Sports,521.62,15,SupplierC
+P040,Resistance Band,Sports,694.83,18,SupplierD

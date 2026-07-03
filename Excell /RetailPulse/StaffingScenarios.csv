@@ -1,0 +1,6 @@
+ScenarioID,ScenarioName,AgentCountMultiplier,AvgHandleTime_sec,Description
+SC1,Current Baseline,1.0,300,"Existing headcount, no change"
+SC2,Scale Up +20%,1.2,285,"Add 20% more agents, slight efficiency gain"
+SC3,Scale Down -20%,0.8,330,"Reduce 20% headcount, longer handle times"
+SC4,Automation Assist,1.0,210,Same agents but AI reduces handle time by 30%
+SC5,Peak Season,1.3,320,"High volume period, extra temp agents"
